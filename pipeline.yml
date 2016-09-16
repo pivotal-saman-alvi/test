@@ -1,0 +1,17 @@
+---
+resources:
+  - name: bosh-src
+    type: git
+    source:
+      uri: https://github.com/pivotal-saman-alvi/test.git
+      branch: master
+
+jobs:
+  - name: test-message
+    serial: true
+    plan:
+      - { get: bosh-src, trigger: true }
+      - task: build
+        file: bosh-src/build.yml
+        params:
+          IMAGE_TO_BE_BUILT:          centos

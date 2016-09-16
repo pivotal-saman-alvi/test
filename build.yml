@@ -1,0 +1,17 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: bosh/vagrant-os-image-builder
+    tag: develop
+
+inputs:
+- name: bosh-src
+
+run:
+  path: bosh-src/build.sh
+
+params:
+  IMAGE_TO_BE_BUILT:          replace-me
