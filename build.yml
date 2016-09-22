@@ -11,7 +11,7 @@ inputs:
 - name: bosh-src
 
 outputs:
-- name: bosh-src
+- name: bosh-out
 
 run:
   path: bosh-src/build.sh
