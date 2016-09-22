@@ -37,6 +37,3 @@ echo "=========================="
 
 # cat test2.txt
 cat ../test.txt
-
-yes | git push origin master
-yes
