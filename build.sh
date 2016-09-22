@@ -7,7 +7,7 @@ set -e
 # set_up_vagrant_private_key
 
 # cd bosh-src
-print_git_state
+# print_git_state
 
 # gem install bundler --version 1.11.2 --no-ri --no-rdoc
 # bundle install --local
