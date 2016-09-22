@@ -21,9 +21,12 @@ echo "hello" >> test.txt
 cd bosh-src
 git log -n 1 >> test2.txt
 
-echo "test" >> README.md
-# git commit -m "updating message"
+echo "test messageeeee" >> README.md
+
+git config --global user.email salvi@pivotal.io 
+git config --global user.name SamanGit
+
+git commit -m "updating message"
 
 cat test2.txt
-
 cat ../test.txt
