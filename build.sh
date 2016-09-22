@@ -26,8 +26,11 @@ echo "test messageeeee" >> README.md
 git config --global user.email salvi@pivotal.io 
 git config --global user.name SamanGit
 
+git diff README.md >> diff.txt
+
 git add README.md
 git commit -m "updating message"
 
+cat diff.txt
 cat test2.txt
 cat ../test.txt
