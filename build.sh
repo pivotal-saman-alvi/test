@@ -18,6 +18,7 @@ echo $IMAGE_TO_BE_BUILT
 echo "==================="
 
 echo "hello" >> test.txt
+cd bosh-src
 git log -n 1
 
 cat test.txt
