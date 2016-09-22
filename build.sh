@@ -19,6 +19,6 @@ echo "==================="
 
 echo "hello" >> test.txt
 cd bosh-src
-git log -n 1
+git log -n 1 >> test2.txt
 
-cat test.txt
+cat ../test.txt
