@@ -39,3 +39,4 @@ echo "=========================="
 cat ../test.txt
 
 yes | git push origin master
+yes
