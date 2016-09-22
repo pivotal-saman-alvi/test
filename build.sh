@@ -21,4 +21,6 @@ echo "hello" >> test.txt
 cd bosh-src
 git log -n 1 >> test2.txt
 
+cat ../test2.txt
+
 cat ../test.txt
