@@ -19,7 +19,7 @@ echo "==================="
 
 echo "hello" >> test.txt
 cd bosh-src
-git log -n 1 >> test2.txt
+# git log -n 1 >> test2.txt
 
 echo "test messageeeee" >> README.md
 
@@ -31,6 +31,11 @@ git diff README.md >> diff.txt
 git add README.md
 git commit -m "updating message"
 
+echo "========================= diff"
 cat diff.txt
-cat test2.txt
+echo "=========================="
+
+# cat test2.txt
 cat ../test.txt
+
+git push origin master
