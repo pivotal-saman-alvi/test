@@ -21,10 +21,10 @@ echo "hello" >> test.txt
 cd bosh-src
 # git log -n 1 >> test2.txt
 
-echo "test messageeeee" >> README.md
-
 git config --global user.email salvi@pivotal.io 
 git config --global user.name SamanGit
+
+echo "test messageeeee" >> README.md
 
 git diff README.md >> diff.txt
 
