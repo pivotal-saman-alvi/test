@@ -3,7 +3,6 @@
 set -e
 
 # source bosh-src/ci/tasks/utils.sh
-check_param IMAGE_TO_BE_BUILT
 
 # set_up_vagrant_private_key
 
