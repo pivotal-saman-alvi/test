@@ -24,7 +24,7 @@ cd bosh-src
 git config --global user.email salvi@pivotal.io 
 git config --global user.name SamanGit
 
-echo "test messageeeee" >> README.md
+echo "test messageeeee omgggg\n" >> README.md
 
 git diff README.md >> diff.txt
 
@@ -35,5 +35,5 @@ echo "========================= diff"
 cat diff.txt
 echo "=========================="
 
-# cat test2.txt
-cat ../test.txt
+cd ..
+cp -a bosh-src/ bosh-moop/

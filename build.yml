@@ -10,12 +10,63 @@ image_resource:
 inputs:
 - name: bosh-src
 
-outputs:
-- name: bosh-out
-  path: bosh-src
+# outputs:
+# - name: bosh-out
+#   path: bosh-src
 
 run:
   path: bosh-src/build.sh
 
 params:
-  IMAGE_TO_BE_BUILT:          replace-me
+  IMAGE_TO_BE_BUILT: replace-me
+
+
+
+# platform: linux
+
+# image_resource:
+# type: docker-image
+# source:
+#   repository: bosh/vagrant-os-image-builder
+#   tag: develop
+
+# inputs:
+# - name: bosh-src
+
+# run:
+#   path: bosh-src/build.sh
+
+# params:
+#   IMAGE_TO_BE_BUILT:          replace-me
+
+
+# run:
+# path: /bin/bash
+# args:
+#   - -c
+#   - |
+#     set -ex
+#     echo "==================="
+#     echo $IMAGE_TO_BE_BUILT
+#     echo "==================="
+
+#     echo "hello" >> test.txt
+#     cd bosh-src
+#     # git log -n 1 >> test2.txt
+
+#     git config --global user.email salvi@pivotal.io 
+#     git config --global user.name SamanGit
+
+#     echo "test messageeeee omgggg\n" >> README.md
+
+#     git diff README.md >> diff.txt
+
+#     git add README.md
+#     git commit -m "updating message"
+
+#     echo "========================= diff"
+#     cat diff.txt
+#     echo "=========================="
+
+#     cd ..
+#     cp -a bosh-src/ bosh-moop/
