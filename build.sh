@@ -17,14 +17,13 @@ echo "==================="
 echo $IMAGE_TO_BE_BUILT
 echo "==================="
 
-echo "hello" >> test.txt
 cd bosh-src
 # git log -n 1 >> test2.txt
 
 git config --global user.email salvi@pivotal.io 
 git config --global user.name SamanGit
 
-echo "test messageeeee omgggg 3432\n" >> README.md
+echo -e "commit message 1\n" >> README.md
 
 git diff README.md >> diff.txt
 
@@ -36,4 +35,7 @@ cat diff.txt
 echo "=========================="
 
 cd ..
+
+# because we aren't compiling or building something we have to do this
+# it is bad ... there's no work around
 cp -a bosh-src/ bosh-out/
