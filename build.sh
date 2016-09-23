@@ -61,6 +61,7 @@ git config --global user.email salvi@pivotal.io
 git config --global user.name SamanGit
 
 git add README.md
+git add test.json
 git commit -m "updating message"
 
 cd ..
