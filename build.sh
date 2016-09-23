@@ -13,8 +13,8 @@ set -e
 # bundle install --local
 # bundle exec rake --trace ci:publish_os_image_in_vm[$OPERATING_SYSTEM_NAME,$OPERATING_SYSTEM_VERSION,remote,$OS_IMAGE_S3_BUCKET_NAME,$OS_IMAGE_S3_KEY]
 
-$OS_IMAGE
-$IMAGE_VERSION
+echo $OS_IMAGE
+echo $IMAGE_VERSION
 
 os_image_version="hashfrombuildthing"
 cd bosh-src
