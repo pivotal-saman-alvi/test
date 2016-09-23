@@ -27,8 +27,8 @@ sha=${arr[1]}
 
 # grabbing message on commit
 message=`git log --pretty=oneline --abbrev-commit -n 1`
-echo -e $sha >> README.md
-echo -e $message >> README.md
+echo -e "$sha\n" >> README.md
+echo -e "$message\n" >> README.md
 
 
 # replacing the right uploaded blob hash in the json file
