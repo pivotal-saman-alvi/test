@@ -36,4 +36,4 @@ cat diff.txt
 echo "=========================="
 
 cd ..
-cp -a bosh-src/ bosh-moop/
+cp -a bosh-src/ bosh-out/
