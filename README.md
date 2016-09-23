@@ -7,3 +7,7 @@
 
 01458a0 Merge branch 'master' of github.com:pivotal-saman-alvi/test
 
+* `hashfrombuildthing`
+
+  - 997580f Merge branch 'master' of github.com:pivotal-saman-alvi/test
+
