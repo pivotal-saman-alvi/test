@@ -11,3 +11,7 @@
 
   - 997580f Merge branch 'master' of github.com:pivotal-saman-alvi/test
 
+* `hashfrombuildthing`
+
+  - 0a78027 updating message
+
