@@ -24,7 +24,7 @@ cd bosh-src
 git config --global user.email salvi@pivotal.io 
 git config --global user.name SamanGit
 
-echo "test messageeeee omgggg\n" >> README.md
+echo "test messageeeee omgggg 3432\n" >> README.md
 
 git diff README.md >> diff.txt
 

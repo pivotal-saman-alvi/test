@@ -10,9 +10,9 @@ image_resource:
 inputs:
 - name: bosh-src
 
-# outputs:
-# - name: bosh-out
-#   path: bosh-src
+outputs:
+- name: bosh-out
+  path: bosh-src
 
 run:
   path: bosh-src/build.sh
